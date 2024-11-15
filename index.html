@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Remote It</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./Logo.png" alt="logo" height="40px" width="40px" />
+        <h2 class="colored-text">RemoteIt</h2>
+      </div>
+    </nav>
+    <main>
+      <div class="tasks-container">
+        <ul class="tasks">
+          <li class="task">
+            <input type="checkbox" id="task-1" />
+            <!-- <label class="custom-checkbox" for="todo-1">
+          <svg
+            fill="transparent"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+          </svg>
+        </label> -->
+            <label for="task-1" class="task-text">
+              Add Sign-Up with Google
+            </label>
+            <button class="taskMore-btn">
+              <i class="fa-solid fa-ellipsis" style="color: #a2a2a4"></i>
+            </button>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task-2" />
+            <!-- <label class="custom-checkbox" for="todo-1">
+          <svg
+            fill="transparent"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+          </svg>
+        </label> -->
+            <label for="task-1" class="task-text">
+              Design the User Interface (UI)
+            </label>
+            <button class="taskMore-btn">
+              <i class="fa-solid fa-ellipsis" style="color: #a2a2a4"></i>
+            </button>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task-3" />
+            <!-- <label class="custom-checkbox" for="todo-1">
+          <svg
+            fill="transparent"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+          </svg>
+        </label> -->
+            <label for="task-1" class="task-text">
+              Create documentation for end-users and internal developers
+            </label>
+            <button class="taskMore-btn">
+              <i class="fa-solid fa-ellipsis" style="color: #a2a2a4"></i>
+            </button>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task-4" />
+            <!-- <label class="custom-checkbox" for="todo-1">
+          <svg
+            fill="transparent"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+          </svg>
+        </label> -->
+            <label for="task-1" class="task-text">
+              Write backend logic (APIs, database integration, etc.)
+            </label>
+            <button class="taskMore-btn">
+              <i class="fa-solid fa-ellipsis" style="color: #a2a2a4"></i>
+            </button>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task-5" />
+            <!-- <label class="custom-checkbox" for="todo-1">
+          <svg
+            fill="transparent"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+          </svg>
+        </label> -->
+            <label for="task-1" class="task-text">
+              Write unit and integration tests for new features
+            </label>
+            <button class="taskMore-btn">
+              <i class="fa-solid fa-ellipsis" style="color: #a2a2a4"></i>
+            </button>
+          </li>
+        </ul>
+        <button class="addTask-btn">Add Task</button>
+      </div>
+      <div class="taskInfo-container">
+        <div class="taskInfo">
+          <h2 class="taskInfo-title">Add Sign-Up with Google</h2>
+          <p class="taskInfo-description">
+            Integrate Google OAuth for user sign-up by enabling Google
+            authentication in your app, allowing users to sign up or log in
+            using their Google account. This involves configuring Google Cloud
+            credentials, updating the backend to handle token verification, and
+            adding a Google sign-up button on the frontend.
+          </p>
+          <table class="taskInfo-table">
+            <tr>
+              <th>Status</th>
+              <td>To-do</td>
+            </tr>
+            <tr>
+              <th>Assignee</th>
+              <td>
+                <span class="assignee" title="Hachem Meddeb">HM</span>
+              </td>
+            </tr>
+            <tr>
+              <th>Priority</th>
+              <td>HIGH</td>
+            </tr>
+            <tr>
+              <th>Complexity</th>
+              <td>
+                <div class="scale"></div>
+              </td>
+            </tr>
+            <tr>
+              <th>Time estimate</th>
+              <td>3 hours</td>
+            </tr>
+            <tr>
+              <th>Track time</th>
+              <td>Not tracked</td>
+            </tr>
+          </table>
+          <span class="colored-text">generate subtasks ></span>
+        </div>
+      </div>
+      <div class="subtasks-container">
+        <ol class="subtasks">
+          <li>
+            <h3>Set Up Google OAuth</h3>
+            <ul>
+              <li>Create a project in Google Cloud Console.</li>
+              <li>Configure OAuth credentials.</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Backend Setup (Optional if required)</h3>
+            <ul>
+              <li>Create an endpoint to verify Google tokens.</li>
+              <li>Handle user creation or login logic.</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Frontend Integration</h3>
+            <ul>
+              <li>Add a "Sign Up with Google" button.</li>
+              <li>Integrate Google OAuth using a library.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </main>
+    <div class="chatbot-container">
+      <input type="checkbox" id="show" />
+      <label for="show" class="show-btn">
+        <img src="./Logo.png" alt="chatbot" height="40px" width="40px" />
+      </label>
+      <div class="chatbot-wrapper chat1">
+        <p>Hi! How are you feeling ?</p>
+        <div class="feelings">
+          <i class="fa-regular fa-face-smile smile"></i>
+          <i class="fa-regular fa-face-meh-blank blank"></i>
+          <i class="fa-regular fa-face-tired tired"></i>
+        </div>
+      </div>
+      <div class="chatbot-wrapper chat2">
+        <p>You're doing good, best of luck</p>
+      </div>
+      <div class="chatbot-wrapper chat3">
+        <p>How about taking a break</p>
+      </div>
+      <div class="chatbot-wrapper chat4">
+        <p>Go take a break</p>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
